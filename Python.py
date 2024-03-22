@@ -143,7 +143,7 @@ while True:
     
     while True:
     # Number of cars being insured
-        NumCarsIns = input("Enter the amount of cars to be insured. ")
+        NumCarsIns = input("Enter the number of cars to be insured: ")
         if NumCarsIns.isdigit():
             NumCarsIns = int(NumCarsIns)
             break
@@ -268,7 +268,7 @@ while True:
     print(f"Customer Address:    {StrAdd:<18s} , {City:<25s}")
     print(f"                     {CustProv:<2s}, {PostalCode:<6s}") 
     print(f"Customer Phone #:    {PhoneNum:<12s}")
-    print(f"--------------------------------------------------------------")
+    print(f"-------------------------------------------------------------")
     print()
     print(f"Insurance Details:                       Policy Number: {POLICY_NUM:>5d}             ")
     print()
