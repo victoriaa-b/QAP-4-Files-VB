@@ -36,17 +36,17 @@ def ExtraCost (OptGlassCov, OptExtraLiab, OptLoanCar, NumCarsIns):
     if OptGlassCov == "Y":
         GlassCovAmt = GLASS_COVERAGE * NumCarsIns
     else:
-        GlassCovAmt = 0  # No would give you no extra cost 
+        GlassCovAmt = 0  # Gives you no extra cost 
     
     if OptExtraLiab == "Y":
         ExtraLiabAmt = EXTRA_LIAB_COVERAGE * NumCarsIns
     else:
-        ExtraLiabAmt = 0 # No would give you no extra cost 
+        ExtraLiabAmt = 0 # Gives you no extra cost 
     
     if OptLoanCar == "Y":
         LoanAmt= LOANER_CAR_COVERAGE * NumCarsIns
     else:
-        LoanAmt = 0 # No would give you no extra cost 
+        LoanAmt = 0 # Gives you no extra cost 
     TotalExtraCost = GlassCovAmt + ExtraLiabAmt + LoanAmt
     return GlassCovAmt, ExtraLiabAmt, LoanAmt
 
