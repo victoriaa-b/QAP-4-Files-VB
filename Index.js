@@ -84,7 +84,7 @@ const customersDes = `
   MotelCustomer.pmtMethod
 }, it's is the same as her mailing address of ${
   MotelCustomer.streetAddress
-} of ${MotelCustomer.town}. Oops alomst for got she checks in ${
+} of ${MotelCustomer.town}. Oops almost forgot! she checks in ${
   MotelCustomer.checkInDate
 } and leaves on the ${MotelCustomer.checkOutDate}. Have a good day!
     `;
